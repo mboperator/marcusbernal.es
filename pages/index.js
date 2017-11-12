@@ -72,13 +72,18 @@ class App extends React.Component {
             }
 
             h1 { margin: 0.2em 0; }
+            a { transition: color 0.15s; }
             a:visited { color: black; }
+            a:hover { color: orange; }
           `}
         </style>
 
         <div className="overlay">
           <Head>
             <title>Marcus Bernales</title>
+            <meta name="description" content="Marcus Bernales. I create tools and products that make people more effective." />
+            <meta name="keywords" content="Marcus,Bernales,Developer,Software,Javascript,Elixir" />
+            <meta name="author" content="Marcus Bernales" />
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
             <link href="https://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet" />
@@ -91,11 +96,6 @@ class App extends React.Component {
               I create tools and products that make people more effective
             </div>
             <ul className="links">
-              <li>
-                <a href="/blog">
-                  <i className="fa fa-book" />
-                </a>
-              </li>
               <li>
                 <a target="_blank" href="https://github.com/mboperator">
                   <i className="fa fa-github" />
