@@ -72,7 +72,7 @@ class App extends React.Component {
             }
 
             h1 { margin: 0.2em 0; }
-            a { transition: color 0.15s; }
+            a { color: black; transition: color 0.15s; }
             a:visited { color: black; }
             a:hover { color: orange; }
           `}
